@@ -58,8 +58,8 @@ if __name__ == "__main__":
             print(f"Domains owned by {args.rn} found:")
             for domain in result:
                 print(domain)
-    else:
-            print("No domains found or an error occurred.")
+        else:
+                print("No domains found or an error occurred.")
     elif args.m == "preview":
         print("Preview search completed, use mode purchase to display domains")
         print(f"Domains owned by {args.rn} found: {result}")
